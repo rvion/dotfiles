@@ -12,6 +12,6 @@ for file in ~/.dotfiles/aliases.*; do
     source "$file"
 done
 
-alias ll="ls lA"
+alias ll="ls -lA"
 alias conf="vim ~/.zshrc"
 alias sconf="source ~/.zshrc"
