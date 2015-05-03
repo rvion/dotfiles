@@ -8,7 +8,12 @@ you can setup this repository with this one line:
 
 ```shell
 curl -L https://raw.githubusercontent.com/rvion/dotfiles/master/download_and_install.sh | sh
+```
 
+or
+
+```shell
+wget -q -O - https://raw.githubusercontent.com/rvion/dotfiles/master/download_and_install.sh | bash
 ```
 
 or manually:
