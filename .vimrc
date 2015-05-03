@@ -6,14 +6,17 @@ set mouse="a"
 set tabstop=4
 set shiftwidth=4
 set expandtab
+set nowrap
 
 filetype plugin indent on
 syntax enable
 
 " color scheme
 set t_Co=256
-set background=dark
-colorscheme solarized
+" set background=dark
+" colorscheme solarized
+let g:molokai_original = 1
+let g:rehash256 = 1
 
 " file explorer
 let g:NERDTreeDirArrows=0

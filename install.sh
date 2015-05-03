@@ -23,6 +23,7 @@ clone_dependencies() {
     git clone https://github.com/tpope/vim-sensible --depth=1
     git clone https://github.com/bling/vim-airline --depth=1
     git clone https://github.com/terryma/vim-multiple-cursors --depth=1
+    git clone https://github.com/tomasr/molokai --depth=1
     cd ~/.dotfiles
 }
 
