@@ -32,6 +32,7 @@ setup_symlinks () {
     safely_symlink_file ~/.dotfiles/.gitconfig ~/.gitconfig
     safely_symlink_file ~/.dotfiles/.zshrc     ~/.zshrc
     safely_symlink_file ~/.dotfiles/vendors/vim ~/.vim
+    safely_symlink_file ~/.dotfiles/vendors/vimrc ~/.vimrc
     safely_symlink_file ~/.dotfiles/.irbrc ~/.irbrc
 }
 
