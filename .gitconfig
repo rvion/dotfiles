@@ -1,3 +1,5 @@
 [user]
-        name = rvion
-        email = vion.remi@gmail.com
+    name = rvion
+    email = vion.remi@gmail.com
+[core]
+	editor = vim
