@@ -34,6 +34,7 @@ setup_symlinks () {
     safely_symlink_file ~/.dotfiles/vendors/vim ~/.vim
     safely_symlink_file ~/.dotfiles/vendors/vimrc ~/.vimrc
     safely_symlink_file ~/.dotfiles/.irbrc ~/.irbrc
+    safely_symlink_file ~/.dotfiles/.ssh/config ~/.ssh/config
 }
 
 clone_dependencies
