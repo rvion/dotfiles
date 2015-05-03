@@ -19,4 +19,3 @@ cd ~/.dotfiles
 ./install.sh
 ```
 
-#TODO
