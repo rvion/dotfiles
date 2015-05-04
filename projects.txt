@@ -1,0 +1,2 @@
+git@github.com:Navendis/nav-olympe.git
+git@github.com:rvion/pathfinding.git
