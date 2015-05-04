@@ -8,8 +8,17 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 source $ZSH/oh-my-zsh.sh
 
 # load aliases
-for file in ~/.dotfiles/aliases.*; do
+echo "set-up aliases:"
+for file in ~/.dotfiles/topics/*/*.aliases; do
     source "$file"
+    echo "  - "$(basename $file)
+done
+
+# load aliases
+echo "sourcing functions:"
+for file in ~/.dotfiles/topics/*/*.functions; do
+    source "$file"
+    echo "  - "$(basename $file)
 done
 
 alias ll="ls -lA"

@@ -1,0 +1,9 @@
+https://github.com/scrooloose/nerdtree --depth=1
+https://github.com/kien/ctrlp.vim --depth=1
+https://github.com/altercation/vim-colors-solarized --depth=1
+https://github.com/airblade/vim-gitgutter --depth=1
+https://github.com/scrooloose/syntastic --depth=1
+https://github.com/tpope/vim-sensible --depth=1
+https://github.com/bling/vim-airline --depth=1
+https://github.com/terryma/vim-multiple-cursors --depth=1
+https://github.com/tomasr/molokai --depth=1
