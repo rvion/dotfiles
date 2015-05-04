@@ -16,5 +16,5 @@ alias gp="git push github \$(branch)"
 alias gpf="git push -f github master \$(branch)"
 
 # Commit
-alias gca="git commit -am"
-alias gc="git commit -m"
+alias gcoa="git commit -am"
+alias gco="git commit -m"
