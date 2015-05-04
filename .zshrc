@@ -15,3 +15,4 @@ done
 alias ll="ls -lA"
 alias conf="vim ~/.zshrc"
 alias sconf="source ~/.zshrc"
+
