@@ -36,7 +36,7 @@ setup_symlinks () {
   # safely_symlink_file ~/.dotfiles/.ssh/config ~/.ssh/config
   info 'installing dotfiles'
 
-  for src in $(find ~/.dotfiles -maxdepth 2 -name '*.symlink')
+  for src in $(find ~/.dotfiles -maxdepth 3 -name '*.symlink')
   do
     dst="$HOME/$(basename "${src%.*}")"
     echo $dst
