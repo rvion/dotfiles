@@ -5,7 +5,7 @@ Personnal configurations files + setup scripts
 ## setup
 
 ```shell
-git clone https://raw.githubusercontent.com/rvion/dotfiles ~/.dotfiles
+git clone https://github.com/rvion/dotfiles --recursive ~/.dotfiles
 cd ~/.dotfiles
 
 ./setup_machine.sh
