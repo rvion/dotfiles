@@ -1,3 +1,4 @@
+#!/bin/bash
 set -e
 platform='unknown'
 unamestr=`uname`

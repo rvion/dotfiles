@@ -15,6 +15,9 @@ alias gc="git checkout"
 alias gp="git push github \$(branch)"
 alias gpf="git push -f github master \$(branch)"
 
+# Submodules
+alias gsuba="git submodule add"
+
 # Commit
 alias gcoa="git commit -am"
 alias gco="git commit -m"
