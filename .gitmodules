@@ -1,27 +1,27 @@
-[submodule "topics/vim/vim.symlink/bundle/nerdtree"]
-	path = topics/vim/vim.symlink/bundle/nerdtree
+[submodule "topics/vim/.vim.symlink/bundle/nerdtree"]
+	path = topics/vim/.vim.symlink/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree
-[submodule "topics/vim/vim.symlink/bundle/ctrlp.vim"]
-	path = topics/vim/vim.symlink/bundle/ctrlp.vim
+[submodule "topics/vim/.vim.symlink/bundle/ctrlp.vim"]
+	path = topics/vim/.vim.symlink/bundle/ctrlp.vim
 	url = https://github.com/kien/ctrlp.vim
-[submodule "topics/vim/vim.symlink/bundle/vim-colors-solarized"]
-	path = topics/vim/vim.symlink/bundle/vim-colors-solarized
+[submodule "topics/vim/.vim.symlink/bundle/vim-colors-solarized"]
+	path = topics/vim/.vim.symlink/bundle/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized
-[submodule "topics/vim/vim.symlink/bundle/vim-gitgutter"]
-	path = topics/vim/vim.symlink/bundle/vim-gitgutter
+[submodule "topics/vim/.vim.symlink/bundle/vim-gitgutter"]
+	path = topics/vim/.vim.symlink/bundle/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter
-[submodule "topics/vim/vim.symlink/bundle/syntastic"]
-	path = topics/vim/vim.symlink/bundle/syntastic
+[submodule "topics/vim/.vim.symlink/bundle/syntastic"]
+	path = topics/vim/.vim.symlink/bundle/syntastic
 	url = https://github.com/scrooloose/syntastic
-[submodule "topics/vim/vim.symlink/bundle/vim-sensible"]
-	path = topics/vim/vim.symlink/bundle/vim-sensible
+[submodule "topics/vim/.vim.symlink/bundle/vim-sensible"]
+	path = topics/vim/.vim.symlink/bundle/vim-sensible
 	url = https://github.com/tpope/vim-sensible
-[submodule "topics/vim/vim.symlink/bundle/vim-airline"]
-	path = topics/vim/vim.symlink/bundle/vim-airline
+[submodule "topics/vim/.vim.symlink/bundle/vim-airline"]
+	path = topics/vim/.vim.symlink/bundle/vim-airline
 	url = https://github.com/bling/vim-airline
-[submodule "topics/vim/vim.symlink/bundle/vim-multiple-cursors"]
-	path = topics/vim/vim.symlink/bundle/vim-multiple-cursors
+[submodule "topics/vim/.vim.symlink/bundle/vim-multiple-cursors"]
+	path = topics/vim/.vim.symlink/bundle/vim-multiple-cursors
 	url = https://github.com/terryma/vim-multiple-cursors
-[submodule "topics/vim/vim.symlink/bundle/molokai"]
-	path = topics/vim/vim.symlink/bundle/molokai
+[submodule "topics/vim/.vim.symlink/bundle/molokai"]
+	path = topics/vim/.vim.symlink/bundle/molokai
 	url = https://github.com/tomasr/molokai
