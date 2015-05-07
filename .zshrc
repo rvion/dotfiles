@@ -1,4 +1,4 @@
-export ZSH=$HOME/.dotfiles/vendors/oh-my-zsh
+export ZSH=$HOME/.dotfiles/topics/oh-my-zsh/oh-my-zsh
 
 ZSH_THEME="robbyrussell"
 plugins=(git)
