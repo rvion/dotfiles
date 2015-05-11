@@ -68,3 +68,6 @@ let g:multi_cursor_quit_key='<Esc>'
 nnoremap <F2> :set invpaste paste?<CR>
 set pastetoggle=<F2>
 set showmode
+
+map ; :
+noremap ;; ;
