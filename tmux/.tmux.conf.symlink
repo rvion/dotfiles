@@ -20,24 +20,19 @@ bind-key -t vi-copy 'v' begin-selection
 bind-key -t vi-copy 'y' copy-selection
 
 # wm window title string (uses statusbar variables)
-set -g set-titles-string "tmux:#I [ #W ]"
-
+# set -g set-titles-string "tmux:#I [ #W ]"
 set -g status-interval 1
 
-# default statusbar colors
-set -g status-fg white
-set -g status-bg default
 
-# active window title colors
-set-window-option -g window-status-current-fg white
-set-window-option -g window-status-current-bg default
-set-window-option -g window-status-current-attr dim
+####### MOUSE ########################
 
-# disable mouse control by default - change 'off' to 'on' to enable by default.
-setw -g mode-mouse off
-set-option -g mouse-resize-pane off
-set-option -g mouse-select-pane off
-set-option -g mouse-select-window off
+# enable mouse control by default
+setw -g mode-mouse on
+set-option -g mouse-resize-pane on
+set-option -g mouse-select-pane on
+set-option -g mouse-select-window on
+
+
 # toggle mouse mode to allow mouse copy/paste
 # set mouse on with prefix m
 bind m \
@@ -55,6 +50,8 @@ bind M \
     display 'Mouse: OFF'
 
 
+########### ZOOM #############
+
 # zoom this pane to full screen
 bind + \
     new-window -d -n tmux-zoom 'clear && echo TMUX ZOOM && read' \;\
@@ -65,4 +62,15 @@ bind - \
     last-window \;\
     swap-pane -s tmux-zoom.0 \;\
     kill-window -t tmux-zoom
+
+####### COLORS ############
+
+# default statusbar colors
+set -g status-fg white
+set -g status-bg default
+
+# active window title colors
+set-window-option -g window-status-current-fg white
+set-window-option -g window-status-current-bg default
+set-window-option -g window-status-current-attr dim
 
