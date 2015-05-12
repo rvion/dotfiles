@@ -1,7 +1,7 @@
 export ZSH=$HOME/.dotfiles/topics/oh-my-zsh/oh-my-zsh
 
 ZSH_THEME="robbyrussell"
-plugins=(git)
+plugins=()
 export LANG=en_US.UTF-8
 
 export PATH=$HOME/bin:/usr/local/bin:$PATH
@@ -24,4 +24,5 @@ done
 alias ll="ls -lA"
 alias conf="vim ~/.zshrc"
 alias sconf="source ~/.zshrc"
-
+# export LANG="en_US.UTF-8"
+# export LANGUAGE="en_US.UTF-8"
