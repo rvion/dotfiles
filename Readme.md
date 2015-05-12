@@ -6,7 +6,7 @@ Personnal configurations files + setup scripts
 ```shell
 git clone https://github.com/rvion/dotfiles --recursive ~/.dotfiles
 cd ~/.dotfiles
-
+git remote add github git@github.com:rvion/dotfiles.git
 ./setup_machine.sh
 ./restore_config.sh
 ```
