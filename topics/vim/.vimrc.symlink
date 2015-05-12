@@ -18,6 +18,9 @@ set laststatus=2        " use 2 lines for the status bar
 set matchtime=2         " show matching bracket for 0.2 seconds
 set matchpairs+=<:>     " specially for html
 
+" move temporary files out of working directory
+set dir-=.
+set dir+=/tmp
 
 set number
 set mouse="a"
