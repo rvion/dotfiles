@@ -11,14 +11,14 @@ source $ZSH/oh-my-zsh.sh
 echo "set-up aliases:"
 for file in ~/.dotfiles/*/*.aliases; do
     source "$file"
-    echo "  - "$(basename $file)
+    # echo "  - "$(basename $file)
 done
 
 # load aliases
 echo "sourcing functions:"
 for file in ~/.dotfiles/*/*.functions; do
     source "$file"
-    echo "  - "$(basename $file)
+    # echo "  - "$(basename $file)
 done
 
 alias ll="ls -lA"
