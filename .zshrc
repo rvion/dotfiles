@@ -1,4 +1,4 @@
-export ZSH=$HOME/.dotfiles/topics/oh-my-zsh/oh-my-zsh
+export ZSH=$HOME/.dotfiles/oh-my-zsh/oh-my-zsh
 
 ZSH_THEME="robbyrussell"
 plugins=()
@@ -9,14 +9,14 @@ source $ZSH/oh-my-zsh.sh
 
 # load aliases
 echo "set-up aliases:"
-for file in ~/.dotfiles/topics/*/*.aliases; do
+for file in ~/.dotfiles/*/*.aliases; do
     source "$file"
     echo "  - "$(basename $file)
 done
 
 # load aliases
 echo "sourcing functions:"
-for file in ~/.dotfiles/topics/*/*.functions; do
+for file in ~/.dotfiles/*/*.functions; do
     source "$file"
     echo "  - "$(basename $file)
 done
