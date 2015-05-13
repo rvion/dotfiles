@@ -31,7 +31,6 @@ set dir+=/tmp
 
 " tab navigation
 nnoremap <C-w>     <Esc>:q<CR>
-nnoremap <C-S-w>   <Esc>:q!<CR>
 inoremap <C-S-tab> <Esc>:tabprevious<CR>i
 inoremap <C-tab>   <Esc>:tabnext<CR>i
 nnoremap <C-t>     <Esc>:tabnew<CR>
@@ -68,6 +67,7 @@ let g:multi_cursor_next_key='<C-n>'
 let g:multi_cursor_prev_key='<C-p>'
 let g:multi_cursor_skip_key='<C-x>'
 let g:multi_cursor_quit_key='<Esc>'
+let g:MultipleCursorsFind='<F3>'
 
 " paste mode
 nnoremap <F2> :set invpaste paste?<CR>
