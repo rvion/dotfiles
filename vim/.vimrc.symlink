@@ -30,6 +30,16 @@ set shiftwidth=4
 set expandtab
 set nowrap
 
+
+
+" tab navigation
+nnoremap <C-w>     <Esc>:q<CR>
+inoremap <C-S-tab> <Esc>:tabprevious<CR>i
+inoremap <C-tab>   <Esc>:tabnext<CR>i
+inoremap <C-t>     <Esc>:tabnew<CR>
+
+
+
 filetype plugin indent on
 syntax enable
 
