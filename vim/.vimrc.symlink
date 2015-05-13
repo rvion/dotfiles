@@ -31,9 +31,10 @@ set dir+=/tmp
 
 " tab navigation
 nnoremap <C-w>     <Esc>:q<CR>
+nnoremap <C-S-w>   <Esc>:q!<CR>
 inoremap <C-S-tab> <Esc>:tabprevious<CR>i
 inoremap <C-tab>   <Esc>:tabnext<CR>i
-inoremap <C-t>     <Esc>:tabnew<CR>
+nnoremap <C-t>     <Esc>:tabnew<CR>
 
 " color scheme
 set t_Co=256
