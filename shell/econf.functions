@@ -1,0 +1,3 @@
+econf (){
+  find ~/.dotfiles -name "*.$1" | xargs vim
+}
