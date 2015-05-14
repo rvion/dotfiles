@@ -8,7 +8,6 @@ set -g base-index 1
 set -s escape-time 0
 
 bind R source-file ~/.tmux.conf \; display-message "Config reloaded..."
-# set -g default-terminal screen-256color
 
 # set vi keys
 setw -g mode-keys vi
@@ -74,3 +73,4 @@ set-window-option -g window-status-current-fg white
 set-window-option -g window-status-current-bg default
 set-window-option -g window-status-current-attr dim
 
+set -g default-terminal screen-256color

@@ -1,3 +1,4 @@
-alias tml="tmux list-sessions"
-alias tma="tmux attach-session"
-alias tmat="tmux attach-session -t"
+alias tmux="TERM=screen-256color tmux"
+alias tml="ttmux list-sessions"
+alias tma="TERM=screen-256color tmux attach-session"
+alias tmat="TERM=screen-256color tmux attach-session -t"
