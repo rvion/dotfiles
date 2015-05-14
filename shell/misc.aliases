@@ -1,1 +1,2 @@
 alias cols="show_colors | less"
+alias o="vim ."
