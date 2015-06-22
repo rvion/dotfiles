@@ -10,3 +10,8 @@ Host github
     PreferredAuthentications publickey
     IdentityFile "~/.ssh/id_rsa"
 
+Host heroku.com
+    HostName heroku.com
+    User git
+    PreferredAuthentications publickey
+    IdentityFile "~/.ssh/id_rsa"
