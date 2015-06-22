@@ -1,0 +1,4 @@
+
+evim (){
+  vim ~/.vimrc
+}

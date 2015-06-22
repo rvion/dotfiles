@@ -94,3 +94,8 @@ set showmode
 
 map ; :
 noremap ;; ;
+
+" allow Ctrl-S to save files
+nnoremap <silent> <c-s> :update<cr>
+inoremap <silent> <c-s> <c-o>:update<cr>
+
