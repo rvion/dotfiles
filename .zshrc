@@ -29,3 +29,4 @@ alias sconf="source ~/.zshrc"
 #
 
 export NAV=~/dev/nav
+stty -ixon
